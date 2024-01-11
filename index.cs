@@ -2,6 +2,7 @@
 names.Add("Maria");
 names.Add("Bill");
 names.Remove("Ana");
+names.Sort();
 foreach (var name in names)
 {
     Console.WriteLine(name);
