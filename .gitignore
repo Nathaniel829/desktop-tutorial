@@ -16,3 +16,4 @@ obj/
 #忽略敏感資訊檔案
 secrets.json
 *.config
+app1.sln
