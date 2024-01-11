@@ -1,9 +1,7 @@
 ﻿var names = List<string> { "<name>", "Ana", "Felipe" };
 names.Add("Nathaniel");
-names.Remove(names[2]);
+names.Remove(names[1]);
 
 {
-    int b = 50;
-    while (b < 100) ;
-    Console.WriteLine("(names[1])(b)公斤超胖沒救了");
+    Console.WriteLine("(names[1])");
 }
