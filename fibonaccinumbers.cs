@@ -1,4 +1,4 @@
-﻿var fibonacciNumbers = new List<int> { 1, 1 };
+﻿var fibonacciNumbers = new List<int> { 1, 1};
 while (fibonacciNumbers.Count < 20)
 {
     var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
@@ -9,8 +9,8 @@ while (fibonacciNumbers.Count < 20)
 }
 
 
-
 foreach (var item in fibonacciNumbers)
+
 {
     Console.WriteLine(item);
 }
