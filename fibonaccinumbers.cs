@@ -1,5 +1,4 @@
 ﻿var fibonacciNumbers = new List<int> { 1, 1 };
-Console.WriteLine(fibonacciNumbers.Count - 2);
 while (fibonacciNumbers.Count < 20)
 {
     var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
